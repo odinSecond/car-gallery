@@ -235,7 +235,7 @@ nav a:hover:after {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('/assets/img/hero_bg_lg.jpg') no-repeat center center/cover;
+    url('../img/hero_bg_lg.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -544,7 +544,7 @@ footer {
   }
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(/assets/img/hero_bg_sm.jpg) no-repeat center center/cover;
+      url(../img/hero_bg_sm.jpg) no-repeat center center/cover;
     height: 80vh;
     padding: var(--spacing-lg);
   }
