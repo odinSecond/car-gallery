@@ -19,7 +19,14 @@
     <header>
       <div class="container header-content">
         <div class="logo">Luxury<span>Motors</span></div>
-        <nav>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="main-nav">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#featured">Featured</a></li>
@@ -29,6 +36,8 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+
+        <div class="overlay"></div>
       </div>
     </header>
 
@@ -363,5 +372,6 @@
         </div>
       </div>
     </footer>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
